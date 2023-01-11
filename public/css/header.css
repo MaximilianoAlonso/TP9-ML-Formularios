@@ -24,7 +24,7 @@
     
 }
 .searchbar input{
-
+padding: 3px;
   width: auto;
   
 }
@@ -32,10 +32,10 @@
     background-color: #ebebeb;
     width: 30px;
     font-size: 14px;
-    padding: 5px;
+    padding:5px;
     border: black solid 2px;
     border-radius: 5px;
-    height: 25px;
+    height: 28px;
 
 }
 nav ul li a{

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>Home - ML</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__primer-nivel">
+            <img class="logo" src="/img/logo-mercado-liebre.svg" alt="Logo">
+            <div class="header__searchbar">
+                <form action="" class="searchbar"> <input type="text" placeholder="Buscar productos"></form>
+                <div class="lupa"><i class="fa-solid fa-magnifying-glass"></i></div>
+            </div>
+            <p class="slogan"><i class="fa-solid fa-hand-holding-dollar"></i> Comprá en cuotas y sin tarjeta de crédito
+            </p>
+        </div>
+        <nav class="header__nav">
+            <ul class="header____nav--navbar">
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Tiendas Oficiales</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
+            <ul class="header__nav--loginbar">
+                <li><a href="register">Creá tu cuenta </a><i class="fa-solid fa-id-card"></i></li>
+                <li><a href="login">Ingresá </a><i class="fa-solid fa-arrow-right-to-bracket"></i></li>
+                <li><a href="#">Mis compras </a><i class="fa-solid fa-basket-shopping"></i></li>
+            </ul>
+        </nav>
+        <div class="burger-menu"><i class="fas fa-bars"></i></div>
+
+    </header>
+    <main>
+        <form class="main__form" action="">
+            <div class="main__form--title">
+                <h2>Registrate!</h2>
+            </div>
+            <div class="item_form">
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre y apellido" required minlength="8">
+            </div>
+            <div class="item_form">
+                <input type="text" name="user" id="user" placeholder="Nombre de usuario" required minlength="8">
+            </div>
+            <div class="item_form">
+                <input type="email" name="email" id="email" placeholder="E-mail" required>
+            </div>
+            <div class="main__form--subtitles">
+                <h4>Fecha de nacimiento</h4>
+            </div>
+            <div class="item_form">
+                <input class="date" type="date" id="date" name="date" value="2018-07-22" min="2004-01-01"
+                    max="2022-01-12">
+            </div>
+            <div class="main__form--subtitles">
+                <h4>Ubicacion</h4>
+            </div>
+            <div class="item_form">
+                <input type="text" name="domicilio" id="domicilio" placeholder="Domicilio" required>
+            </div>
+            <div>
+                <select class="form_lista" name="pais">
+                    <option value="pais" hidden>Pais</option>
+                    <option value="pais1">Argentina</option>
+                    <option value="pais2">Chile</option>
+                    <option value="pais3">Paraguay</option>
+                    <option value="pais3">Uruguay</option>
+                    <option value="pais3">Bolivia</option>
+
+                </select>
+                <select class="form_lista" name="Zona">
+                    <option value="zona" hidden>Zona</option>
+                    <option value="zona1">Zona sur</option>
+                        <option value="zona2">Zona norte</option>
+                        <option value="zona3">Zona este</option>
+                        <option value="zona4">Zona oeste</option>
+                </select>
+            </div>
+            <div class="main__form--subtitles">
+                <h4>Perfil de usuario</h4>
+            </div>
+            <div class="main__form--radio">
+                <div><input type="radio" id="comprador" name="comprador">
+                    <label for="comprador">Comprador</label>
+                </div>
+                <div>
+                    <input type="radio" id="vendedor" name="vendedor">
+                    <label for="vendedor">Vendedor</label>
+                </div>
+            </div>
+            <div class="main__form--subtitles">
+                <h4>Intereses</h4>
+            </div>
+            <div class="main__form--checkbox">
+                <div>
+                    <input type="checkbox" name="electro"> <label for="electro">Electro</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Moda"> <label for="Moda">Moda</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Hogar"> <label for="Hogar">Hogar</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Jugueteria"> <label for="Jugueteria">Jugueteria</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="vidaSana"> <label for="vidaSana">Vida sana</label>
+                </div>
+            </div>
+            <div> <a href="#"><button class="btn" type="submit">Enviar</button></a></div>
+
+
+        </form>
+    </main>
+    <footer>
+        <section>
+            <article>
+                <div class="icon-footer"><i class="fa-sharp fa-solid fa-credit-card"></i></div>
+                <h3>Pagá con tarjeta o en efectivo</h3>
+                <p class="cuerpo_de_texto">Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+                    puntos de pago. ¡Y siempre es seguro!</p>
+            </article>
+            <article>
+                <div class="icon-footer"><i class="fa-sharp fa-solid fa-gift"></i></div>
+                <h3>Envío gratis desde $ 2.500</h3>
+                <p class="cuerpo_de_texto">Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+                    productos. Es un beneficio de Mercado Puntos.</p>
+            </article>
+            <article>
+                <div class="icon-footer"><i class="fa-solid fa-user-shield"></i></div>
+                <h3>Seguridad, de principio a fin</h3>
+                <p class="cuerpo_de_texto">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+                    porque estás siempre protegid@.</p>
+            </article>
+        </section>
+        <div class="copyright">Copyright © 1999-2020 MercadoLiebre S.R.L.</div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/ed63c2cf6c.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
