@@ -1,13 +1,17 @@
-# TP8 - flexbox avanzado. 
-### 3 vistas
+# TP9 - Formularios 
+### Vistas de REGISTRO
 -------------------------------------------------------------------------
 #### mobile
-![Asi quedo](https://github.com/MaximilianoAlonso/tp8-Modulo-4-PG---Posicionamiento-avanzado-FlexBox---Mercado-Liebre-4/blob/master/mobile1.jpg)
-
-
-#### tablet
-![Asi quedo](https://github.com/MaximilianoAlonso/tp8-Modulo-4-PG---Posicionamiento-avanzado-FlexBox---Mercado-Liebre-4/blob/master/tablet1.jpg)
+![Asi quedo](https://github.com/MaximilianoAlonso/TP9-ML-Formularios/blob/master/mobile-register.jpg)
 
 
 #### desktop
-![Asi quedo](https://github.com/MaximilianoAlonso/tp8-Modulo-4-PG---Posicionamiento-avanzado-FlexBox---Mercado-Liebre-4/blob/master/desktop1.jpg)
+![Asi quedo](https://github.com/MaximilianoAlonso/TP9-ML-Formularios/blob/master/desktop-register.jpg)
+
+### vistas de LOGIN
+
+#### mobile
+![Asi quedo](https://github.com/MaximilianoAlonso/TP9-ML-Formularios/blob/master/mobile-login.jpg)
+
+#### desktop
+![Asi quedo](https://github.com/MaximilianoAlonso/TP9-ML-Formularios/blob/master/desktop-login.jpg)
